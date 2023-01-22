@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Titulo de pagina -->
+    <title>Proyecto Final JavaScript</title>
+    
+</head>
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacts.html">Contacts</a>
+              </li>
+            </ul>
+            <button class="claro-oscuro" id="claro-oscuro">Oscuro / Claro</button>
+          </div>
+        </div>
+      </nav>
+
+    <h1 class="ver-carrito" id="verCarrito">  🛒 </h1>
+
+    <div id="shopcars" class="shop-cars"></div>
+
+    <div id="modal-container" class="modal-container"></div>
+
+    <footer class="pie-pagina">
+
+        <span> Telefono de contacto 3515734180 / 3515464242 </span>
+        <span> © Copyright 2023 - Gracias por elegirnos dia a dia </span>
+    
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>  
+    <script src="carrito.js"></script>
+    
+</body>
+</html>
